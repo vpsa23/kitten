@@ -1,3 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*Primera Imagen*/
+@media (min-width: 1024px) and (max-width: 1600px){
+  body{
+    background-image: url(../img/sunny-day.jpg);
+    background-size: 100%;
+  }
+  .photo1 img{
+  margin-top: 25%;
+  margin-left: 25%;
+  width: 40%;
+  }
+
+  .photo2{
+    display: none;
+  }
+
+  .photo3{
+    display: none;
+  }
+}
+
+/*Segunda imagen*/
+@media (min-width: 667px) and (max-width: 1024px){
+  body{
+    background-image: url(../img/night.jpg);
+    background-size: 100%;
+  }
+
+.photo1{
+  display: none;
+  }
+
+.photo2{
+  margin-top: 25%;
+  margin-left: 220px;
+  width: 40%;
+  }
+
+.photo3{
+  display: none;
+  }
+}
+
+/*Tercera imagen*/
 @media (min-width: 1px) and (max-width: 667px) {
   body{
     background-image: url(..//img/dawn.png);
@@ -5,18 +55,21 @@
     background-repeat: no-repeat;
     height: auto;
   }
-}
 
-@media (min-width: 667px) and (max-width: 1024px){
-  body{
-    background-image: url(../img/night.jpg);
-    background-size: 100%;
+.photo1{
+  display: none;
+  }
+
+.photo2{
+  display: none;
+  }
+
+.photo3 img{
+  margin-top: 30%;
+  margin-left: 20%;
+  width: 60%;
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1600px){
-  body{
-    background-image: url(../img/sunny-day.jpg);
-    background-size: 100%;
-  }
-}
+
+
